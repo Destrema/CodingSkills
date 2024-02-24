@@ -1,0 +1,110 @@
+body {
+  font-family: "Lexend", sans-serif;
+  background-color: cornsilk;
+  width: 100vw;
+  font-size: 16px;
+  margin: 0;
+}
+
+h1 {
+  font-weight: 700;
+  font-style: strong;
+  text-transform: uppercase;
+  color: ivory;
+  position: relative;
+}
+
+p {
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  text-transform: uppercase;
+  color: ivory;
+}
+
+.banner {
+  background-attachment: scroll;  
+  background-size: cover;
+  background-position: center;
+  object-position: center;
+  text-align: center;
+  padding: 0;
+}
+
+.banner video {
+  width: 100%;
+}
+
+.container {
+  background-image: linear-gradient(rgba(14, 76, 170, 0.5), rgba(235, 49, 235, 0.5)), url(images/2024films/letterboxd121.png);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  width: 100%;
+  height: 600px;
+  padding: 3rem 0;
+}
+
+.button-white {
+  background-color: rgb(240, 179, 248);
+  color: white;
+  padding: 1rem 3rem;
+  border-radius: 4px;
+  display: block;
+  text-decoration: none;
+  transition: .3s;
+  text-transform: uppercase;
+}
+
+.button-white:hover {
+  background-color: rgb(153, 163, 245);
+  color: white;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1rem;
+}
+
+.card-all {
+  background: palevioletred;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  text-align: center;
+  padding: 1.5rem;
+  margin: 0px;
+}
+
+.card-base {
+  background-size: cover;
+  background-position: 10px right 40px;
+  padding: 100px 50px;
+  overflow: hidden;
+}
+
+.card-love {
+  background-image: linear-gradient(rgba(14, 76, 170, 0.5), rgba(235, 49, 235, 0.5)), url('images/2024films/newlove.jpg');
+}
+
+.card-mesmerized {
+  background-image: linear-gradient(rgba(14, 76, 170, 0.5), rgba(235, 49, 235, 0.5)), url('images/2024films/cameraimg.jpg');
+}
+
+.card-redflag {
+  background-image: linear-gradient(rgba(14, 76, 170, 0.5), rgba(235, 49, 235, 0.5)), url('images/2024films/redflag copy.jpg');
+}
+
+.footer {
+  background: #5e5ed8;
+  text-align: center;
+  padding: 3rem 0;
+  height: 50px;
+}
+
+.footer p {
+  color: white;
+}
